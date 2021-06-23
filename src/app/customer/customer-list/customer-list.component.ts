@@ -6,9 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customer-list.component.scss']
 })
 export class CustomerListComponent implements OnInit {
-
+customers: any=[];
+customer!: any;
   constructor() { }
-
+sendData(){
+  // console.log(this.formulario.value);
+  // console.log(this.formulario.get('name')?.value);
+};
   ngOnInit(): void {
   }
 

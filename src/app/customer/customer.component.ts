@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class CustomerComponent implements OnInit {
 
   constructor() { }
-
+  sendData(){
+    // console.log(this.formulario.value);
+    // console.log(this.formulario.get('name')?.value);
+  };
   ngOnInit(): void {
-    
+
   }
 
 }

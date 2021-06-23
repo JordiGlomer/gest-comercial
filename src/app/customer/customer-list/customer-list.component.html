@@ -1,5 +1,11 @@
 <p>LISTA DE CLIENTES</p>
 
-<a routerLink="1">CLIENTE 1</a>
-<br/>
-<a routerLink="2">CLIENTE 2</a>
+<ul>
+<li *ngfor="let customer of customers"><a routerLink="['/customer/"+customer.></a></li>
+<li></li>
+</ul>
+<!-- <form [formGroup]='formulario' (ngSubmit)=sendData()>
+  <input type='text' name='name' formControlName='name'>
+  <input type='password' name='password' formControlName='password'>
+  <button type='submit'>ENVIAR</button>
+</form> -->
